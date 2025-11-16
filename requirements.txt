@@ -1,0 +1,20 @@
+# Core dependencies
+requests
+aiohttp
+web3
+bitcoinlib
+hdwallet
+mnemonic
+ecdsa
+base58
+
+# Utilities
+colorama
+tqdm
+click
+python-dotenv
+
+# Development
+pytest
+black
+flake8
