@@ -1,0 +1,8 @@
+Custom Wordlists
+bash
+# Use custom wordlist file
+python main.py --generate 1000 --wordlist custom_words.txt
+Specific Derivation Paths
+bash
+# Use custom derivation path
+python main.py --seed "your seed" --derivation "m/44'/60'/0'/0/0"
