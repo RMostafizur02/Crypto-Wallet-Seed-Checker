@@ -1,0 +1,8 @@
+# Check a single seed phrase
+python main.py --seed "abandon ability able about above absent absorb abstract absurd abuse access accident"
+
+# Generate and check 100 random seeds
+python main.py --generate 100 --words 12
+
+# Check seeds from a file
+python main.py --file seeds.txt --output-dir ./results
