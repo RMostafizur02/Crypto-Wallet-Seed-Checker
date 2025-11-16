@@ -1,0 +1,103 @@
+{
+  "bitcoin": {
+    "name": "Bitcoin",
+    "symbol": "BTC",
+    "derivation_paths": [
+      "m/44'/0'/0'/0/0",
+      "m/84'/0'/0'/0/0"
+    ],
+    "apis": [
+      "https://blockstream.info/api/address/{}",
+      "https://blockchain.info/rawaddr/{}"
+    ],
+    "decimals": 8
+  },
+  "ethereum": {
+    "name": "Ethereum",
+    "symbol": "ETH",
+    "derivation_paths": [
+      "m/44'/60'/0'/0/0"
+    ],
+    "apis": [
+      "https://api.etherscan.io/api"
+    ],
+    "decimals": 18
+  },
+  "bsc": {
+    "name": "Binance Smart Chain",
+    "symbol": "BNB",
+    "derivation_paths": [
+      "m/44'/60'/0'/0/0"
+    ],
+    "apis": [
+      "https://api.bscscan.com/api"
+    ],
+    "decimals": 18
+  },
+  "polygon": {
+    "name": "Polygon",
+    "symbol": "MATIC",
+    "derivation_paths": [
+      "m/44'/60'/0'/0/0"
+    ],
+    "apis": [
+      "https://api.polygonscan.com/api"
+    ],
+    "decimals": 18
+  },
+  "avalanche": {
+    "name": "Avalanche",
+    "symbol": "AVAX",
+    "derivation_paths": [
+      "m/44'/60'/0'/0/0"
+    ],
+    "apis": [
+      "https://api.snowtrace.io/api"
+    ],
+    "decimals": 18
+  },
+  "arbitrum": {
+    "name": "Arbitrum One",
+    "symbol": "ETH",
+    "derivation_paths": [
+      "m/44'/60'/0'/0/0"
+    ],
+    "apis": [
+      "https://api.arbiscan.io/api"
+    ],
+    "decimals": 18
+  },
+  "optimism": {
+    "name": "Optimism",
+    "symbol": "ETH",
+    "derivation_paths": [
+      "m/44'/60'/0'/0/0"
+    ],
+    "apis": [
+      "https://api-optimistic.etherscan.io/api"
+    ],
+    "decimals": 18
+  },
+  "dogecoin": {
+    "name": "Dogecoin",
+    "symbol": "DOGE",
+    "derivation_paths": [
+      "m/44'/3'/0'/0/0"
+    ],
+    "apis": [
+      "https://dogechain.info/api/v1/address/balance/{}"
+    ],
+    "decimals": 8
+  },
+  "litecoin": {
+    "name": "Litecoin",
+    "symbol": "LTC",
+    "derivation_paths": [
+      "m/44'/2'/0'/0/0"
+    ],
+    "apis": [
+      "https://api.blockcypher.com/v1/ltc/main/addrs/{}/balance"
+    ],
+    "decimals": 8
+  }
+}
