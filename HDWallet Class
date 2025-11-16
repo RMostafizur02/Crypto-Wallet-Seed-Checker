@@ -1,0 +1,10 @@
+from src.core.hd_wallet import HDWallet
+
+# Create wallet from seed
+wallet = HDWallet(seed)
+
+# Derive keys for path
+private_key, chain_code = wallet.derive_path("m/44'/0'/0'/0/0")
+
+# Get standard derivation paths
+paths = HDWallet.get_derivation_paths()
