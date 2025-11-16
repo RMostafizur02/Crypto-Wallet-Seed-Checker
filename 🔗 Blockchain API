@@ -1,0 +1,12 @@
+BlockchainScanner Class
+Orchestrates scanning across multiple blockchains.
+
+from src.blockchain.scanners import BlockchainScanner
+
+scanner = BlockchainScanner()
+
+# Scan addresses across all chains
+results = await scanner.scan_addresses(addresses)
+
+# Scan single chain
+result = await scanner.scan_single_chain("bitcoin", address)
