@@ -1,0 +1,12 @@
+from src.core.bip39_generator import BIP39Generator
+
+generator = BIP39Generator()
+
+# Generate mnemonic
+mnemonic = generator.generate_mnemonic(word_count=12)
+
+# Validate mnemonic
+is_valid = generator.validate_mnemonic(mnemonic)
+
+# Generate seed
+seed = generator.mnemonic_to_seed(mnemonic, "passphrase")
