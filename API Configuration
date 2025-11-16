@@ -1,0 +1,6 @@
+Create a .env file for API keys:
+
+env
+ETHERSCAN_API_KEY=your_etherscan_key
+BSCSCAN_API_KEY=your_bscscan_key
+POLYGONSCAN_API_KEY=your_polygonscan_key
