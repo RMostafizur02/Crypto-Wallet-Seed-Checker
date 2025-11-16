@@ -1,0 +1,9 @@
+Option	Description	Default
+--seed SEED	Check a single seed phrase	-
+--generate N	Generate and check N seeds	-
+--file FILE	Check seeds from text file	-
+--words COUNT	Words in mnemonic (12,15,18,21,24)	12
+--passphrase PASS	BIP-39 passphrase	""
+--batch-size N	Concurrent checking batch size	10
+--output-dir DIR	Output directory for results	./results
+--verbose	Enable verbose logging	False
