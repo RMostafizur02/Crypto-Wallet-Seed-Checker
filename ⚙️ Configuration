@@ -1,0 +1,29 @@
+Custom Settings
+Edit config/settings.py for:
+
+API rate limiting
+
+Default batch sizes
+
+Custom derivation paths
+
+Logging configuration
+
+Supported Blockchains
+Bitcoin (Legacy, SegWit)
+
+Ethereum & EVM chains
+
+Binance Smart Chain
+
+Polygon
+
+Avalanche
+
+Arbitrum
+
+Optimism
+
+Dogecoin
+
+Litecoin
