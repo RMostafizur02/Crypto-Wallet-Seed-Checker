@@ -1,0 +1,40 @@
+Common Issues
+Import Errors
+
+bash
+# Make sure you're in the correct directory
+cd crypto-wallet-seed-checker
+
+# Install dependencies
+pip install -r requirements.txt
+API Rate Limiting
+
+bash
+# Reduce batch size and add delays
+python main.py --generate 1000 --batch-size 5
+Memory Issues
+
+bash
+# Use smaller batches for large scans
+python main.py --generate 50000 --batch-size 10
+Getting Help
+Check the log files for detailed error information
+
+Run with --verbose flag for debug output
+
+Check the API documentation for integration help
+
+Review security guidelines for best practices
+
+🎯 Examples
+Basic Scan
+bash
+python main.py --seed "zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo party"
+Educational Research
+bash
+# Study common seed patterns
+python main.py --generate 5000 --words 12 --output-dir ./research
+Security Testing
+bash
+# Test your own wallets (educational only)
+python main.py --file my_wallets.txt --passphrase "mypass"
