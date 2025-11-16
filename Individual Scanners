@@ -1,0 +1,16 @@
+from src.blockchain.bitcoin import BitcoinScanner
+from src.blockchain.ethereum import EthereumScanner
+from src.blockchain.evm_chains import EVMChainScanner
+
+# Bitcoin
+btc_scanner = BitcoinScanner()
+address = btc_scanner.derive_address(public_key, "legacy")
+balance = await btc_scanner.check_balance(address)
+
+# Ethereum
+eth_scanner = EthereumScanner(api_key="your_key")
+balance = await eth_scanner.check_balance(address)
+
+# EVM Chains
+bsc_scanner = EVMChainScanner("bsc", api_key="your_key")
+balance = await bsc_scanner.check_balance(address)
