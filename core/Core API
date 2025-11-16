@@ -1,0 +1,32 @@
+
+## 🔧 Core API
+
+### SeedAnalyzer Class
+Main class for seed analysis operations.
+
+```python
+from src.core.seed_analyzer import SeedAnalyzer
+
+# Initialize analyzer
+analyzer = SeedAnalyzer()
+
+# Check single seed
+result = await analyzer.check_single_seed(
+    "abandon ability able about above absent absorb abstract absurd abuse access accident",
+    "passphrase"
+)
+
+# Generate and check multiple seeds
+results = await analyzer.generate_and_check(
+    count=1000,
+    word_count=12,
+    passphrase="",
+    batch_size=50
+)
+
+# Check seeds from file
+results = await analyzer.check_from_file(
+    filename="seeds.txt",
+    passphrase="",
+    batch_size=20
+)
